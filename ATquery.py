@@ -24,7 +24,7 @@ import os
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Send AT commands to a cell module.")
-    parser.add_argument('brand', choices=['UBLOX', 'TELIT', 'QUECTEL', 'CINTERION'], help="Select the brand of the module.")
+    parser.add_argument('brand', choices=['UBLOX', 'TELIT', 'QUECTEL', 'CINTERION', 'TEST'], help="Select the brand of the module.")
     parser.add_argument('mode', choices=['READ', 'TEST'], help="Select the mode: READ or TEST.")
     return parser.parse_args()
 
